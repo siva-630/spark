@@ -15,7 +15,7 @@ if (!API_KEY) {
   process.exit(1);
 }
 
-// Initialize the model
+
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
 
