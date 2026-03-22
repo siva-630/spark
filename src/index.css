@@ -8,7 +8,30 @@
 
 font-family: outfit;
 }
+html, body{
+  height: 100%;
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+
 #root{
   min-height: 100vh;
   display: flex;
+}
+
+@media (max-width: 768px){
+  html, body{
+    overflow-y: auto;
+  }
+
+  #root{
+    min-height: auto;
+  }
 }

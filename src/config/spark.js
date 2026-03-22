@@ -27,7 +27,7 @@ async function runWithModelFallback(requestedModel, requestFn) {
       if (!isModelUnavailableError(error)) {
         throw error;
       }
-      console.warn(`Model \"${currentModel}\" unavailable, trying fallback model...`);
+      console.warn(`Model "${currentModel}" unavailable, trying fallback model...`);
     }
   }
 

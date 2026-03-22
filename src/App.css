@@ -1,0 +1,65 @@
+.app-shell{
+    --sidebar-bg: #f0f4f5;
+    --sidebar-chip-bg: #e6eaf1;
+    --sidebar-hover-bg: #e2e6eb;
+    --sidebar-active-bg: #d8e7ff;
+    --sidebar-text: #282828;
+    --sidebar-icon-hover-bg: rgba(0, 0, 0, 0.08);
+    --page-bg: #ffffff;
+    --main-text: #585858;
+    --muted-text: #7f8a99;
+    --card-bg: #f0f4f9;
+    --card-hover-bg: #dfe4ea;
+    --chat-bg: #f8fbff;
+    --chat-border: #e4edf8;
+    --assistant-bubble-bg: #ffffff;
+    --assistant-bubble-text: #2f2f2f;
+    --search-bg: #d9e5f4;
+    --input-text: #1f2f46;
+    --panel-bg: #ffffff;
+    --panel-border: #d8e2f0;
+    --panel-title: #1f2f46;
+    --panel-text: #384657;
+    --btn-soft-bg: #edf3fd;
+    --btn-soft-text: #274d86;
+    --btn-danger-bg: #ffe8e8;
+    --btn-danger-text: #9f2f2f;
+    display: flex;
+    width: 100%;
+    background: var(--page-bg);
+}
+
+.app-shell.theme-white{
+    --sidebar-bg: #f0f4f5;
+    --sidebar-chip-bg: #e6eaf1;
+    --sidebar-hover-bg: #e2e6eb;
+    --sidebar-active-bg: #d8e7ff;
+}
+
+.app-shell.theme-dark{
+    --page-bg: #121a24;
+    --main-text: #ffffff;
+    --muted-text: #d5def0;
+    --sidebar-bg: #1e2634;
+    --sidebar-chip-bg: #2a3649;
+    --sidebar-hover-bg: #33445e;
+    --sidebar-active-bg: #3c5374;
+    --sidebar-text: #f1f6ff;
+    --sidebar-icon-hover-bg: rgba(255, 255, 255, 0.16);
+    --card-bg: #1f2a3b;
+    --card-hover-bg: #2a3850;
+    --chat-bg: #182233;
+    --chat-border: #324867;
+    --assistant-bubble-bg: #223046;
+    --assistant-bubble-text: #ffffff;
+    --search-bg: #24354d;
+    --input-text: #ffffff;
+    --panel-bg: #1f2a3b;
+    --panel-border: #3f5678;
+    --panel-title: #f4f7ff;
+    --panel-text: #d5def0;
+    --btn-soft-bg: #2f3f58;
+    --btn-soft-text: #dce8ff;
+    --btn-danger-bg: #4a2d37;
+    --btn-danger-text: #ffd9d9;
+}

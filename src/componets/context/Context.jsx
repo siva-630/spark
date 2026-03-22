@@ -1,19 +1,16 @@
 
+import { createContext } from 'react';
 
-export const context = createContext();
+export const context = createContext({});
 
-const contextProvider = (props) => {
+const ContextProvider = ({ children }) => {
+    const contextValue = {};
 
-    const onSent = async (props) => {
-        runChat
-    }
-    const contextValue = {
-        
-    }
     return (
         <context.Provider value={contextValue}>
-            {props.children}
+            {children}
         </context.Provider>
-    )
-}
-export default contextProvider;
+    );
+};
+
+export default ContextProvider;
